@@ -30,8 +30,7 @@ export default async function Page({
           },
         ]}
       />
-      {/* NOTE: Handling Error */}
-      <Form invoice={invoice} customers={customers} />
+      <Form customers={customers} />
     </main>
   );
 }
